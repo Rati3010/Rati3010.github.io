@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e081b89.css",
-    "main.js": "/static/js/main.33ca33f6.js",
+    "main.css": "/static/css/main.5833d5a8.css",
+    "main.js": "/static/js/main.1d6501d4.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/myImage.jpg": "/static/media/myImage.6d5a1c9461a27f6d0ae8.jpg",
+    "static/media/Ratikanta-Mohanta-Resume.pdf": "/static/media/Ratikanta-Mohanta-Resume.e4a66b18ca1629cd5da2.pdf",
     "static/media/portfoli2.jpg": "/static/media/portfoli2.40a847229284dc43a448.jpg",
     "static/media/node11.jpg": "/static/media/node11.d7f6640477442bd96c6d.jpg",
     "static/media/react22.png": "/static/media/react22.9ebfdd5480542bb5ac55.png",
+    "static/media/googlegrage.jpg": "/static/media/googlegrage.7dd2a57b927777222845.jpg",
+    "static/media/happyfox.jpg": "/static/media/happyfox.8cffb95397e3fd6f8b76.jpg",
     "index.html": "/index.html",
-    "main.3e081b89.css.map": "/static/css/main.3e081b89.css.map",
-    "main.33ca33f6.js.map": "/static/js/main.33ca33f6.js.map",
+    "main.5833d5a8.css.map": "/static/css/main.5833d5a8.css.map",
+    "main.1d6501d4.js.map": "/static/js/main.1d6501d4.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e081b89.css",
-    "static/js/main.33ca33f6.js"
+    "static/css/main.5833d5a8.css",
+    "static/js/main.1d6501d4.js"
   ]
 }
