@@ -35,8 +35,8 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
-                 <a href={project.gitlink}  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">GitHub</a>
-                 <button href={project.deploy}  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg ml-2">Deployed</button>
+                 <a href={project.gitlink} target="_blank" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">GitHub</a>
+                 <a href={project.deploy} target="_blank"  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg ml-2">Deployed</a>
                 </div>
               </div>
             </div>

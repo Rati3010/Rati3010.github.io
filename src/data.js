@@ -1,27 +1,28 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "React,Javascript,Chakra UI",
+    title: "Overstock Clone",
+    subtitle: "React,Javascript,Chakra UI,CSS,Firebase",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    gitlink: "https://github.com/NAYANKUMAR21/closed-mask-38",
-    deploy:"cheerful-duckanoo-d5d1ea.netlify.app/"
+      "Overstock.com help you discover designer brands & home goods at the lowest prices online. With free shipping on EVERYTHING*. It supplies home decor produts as well as some daily usage product as well",
+    image: "./overstock.gif",
+    gitlink: "https://github.com/Adarsh-nihal/Overstock.com",
+    deploy:"https://overstock-com-pi.vercel.app/"
   },
   {
-    title: "Mailtrap Website Clone",
-    subtitle: "HTML,CSS, & javascript",
+    title: "Mailtrap Clone",
+    subtitle: "HTML,CSS, & JavaScript",
     description:
       "Mailtrap is a testing tool and is not designed to deliver emails to real addresses. However, you can forward some messages to your colleagues, customers, or your own inboxes for testing purposes.",
-    image: "./project-2.gif",
+    image: "./mailtrap2.gif",
+    gitlink:"https://github.com/Rati3010/Mailtrap",
     deploy: "https://serene-cascaron-b64b39.netlify.app/",
   },
   {
     title: "HappyFox Clone",
-    subtitle: "React,HTML,CSS,Firebase",
+    subtitle: "JavaScript,HTML,CSS,ChakraUI",
     description:
       "A ticketing system built on best practices and rated as the best Help Desk software by multiple independent industry sources.",
-    image: "./project-3.gif",
+    image: "./happyfox.gif",
     gitlink: "https://github.com/NAYANKUMAR21/closed-mask-38",
     deploy:"cheerful-duckanoo-d5d1ea.netlify.app/"
   },
@@ -30,7 +31,7 @@ export const projects = [
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "./happyfox.gif",
     gitlink: "https://github.com/NAYANKUMAR21/closed-mask-38",
     deploy:"cheerful-duckanoo-d5d1ea.netlify.app/"
   },

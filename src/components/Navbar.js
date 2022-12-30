@@ -21,7 +21,7 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
+          <a href="#github" className="mr-5 hover:text-white">
            GitHub
           </a>
           <a style={{display:"flex",justifyContent:'center',alignItems:'center',gap:'5px'}} href="https://drive.google.com/file/d/1xYmR5BUsFN9nfK5dh8uRAV7t4yA34K9L/view?usp=sharing" className="mr-5 hover:text-white">

@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../assets/ratkata.jpg"
+import picture from "../assets/ratkata.png"
 export default function About() {
   return (
     <section id="about">
@@ -29,7 +29,7 @@ export default function About() {
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded"
-            style={{borderRadius:"50%"}}
+            style={{width:'200px',height:'200px'}}
             alt="hero"
             src={picture}
           />
