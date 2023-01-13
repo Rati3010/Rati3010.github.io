@@ -24,10 +24,10 @@ export default function Navbar() {
           <a href="#github" className="mr-5 hover:text-white">
            GitHub
           </a>
-          <a style={{display:"flex",justifyContent:'center',alignItems:'center',gap:'5px'}} href="https://drive.google.com/file/d/1xYmR5BUsFN9nfK5dh8uRAV7t4yA34K9L/view?usp=sharing" className="mr-5 hover:text-white">
+          <a style={{display:"flex",justifyContent:'center',alignItems:'center',gap:'5px'}} href="https://drive.google.com/file/d/19BmTZGKzp0ZLsRLWgLo3zoo_FfAlhV_b/view?usp=sharing" target="_blank" className="mr-5 hover:text-white">
             Resume <FaLink/>
           </a>
-          <a style={{display:"flex",justifyContent:'center',alignItems:'center',gap:'5px'}} className="mr-5 hover:text-white" href={resume} download>Resume <FaDownload/> </a>
+          <a style={{display:"flex",justifyContent:'center',alignItems:'center',gap:'5px'}} className="mr-5 hover:text-white" href={resume} target="_blank" download>Resume <FaDownload/> </a>
         </nav>
         <a
           href="#contact"

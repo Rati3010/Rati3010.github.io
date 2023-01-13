@@ -6,6 +6,7 @@
 }
 .contact_button>a:first-child{
      background-color: yellow;
+     display: flex;
      padding: 10px 20px;
      font-size: 20px;
      font-weight: 600;
