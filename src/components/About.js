@@ -11,7 +11,7 @@ export default function About() {
             websites.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am full-stack web developer
+            A web full-stack focused web-developer building the websites that leads to the success of the overall product
           </p>
           <div className="flex justify-center">
             <a

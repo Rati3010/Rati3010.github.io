@@ -6,7 +6,7 @@ export const projects = [
       "Overstock.com help you discover designer brands & home goods at the lowest prices online. With free shipping on EVERYTHING*. It supplies home decor produts as well as some daily usage product as well",
     image: "./overstock.gif",
     gitlink: "https://github.com/Adarsh-nihal/Overstock.com",
-    deploy:"https://overstock-com-pi.vercel.app/"
+    deploy:"https://overstack-app-eta.vercel.app/"
   },
   {
     title: "Mailtrap Clone",
@@ -24,16 +24,16 @@ export const projects = [
       "A ticketing system built on best practices and rated as the best Help Desk software by multiple independent industry sources.",
     image: "./happyfox.gif",
     gitlink: "https://github.com/NAYANKUMAR21/closed-mask-38",
-    deploy:"cheerful-duckanoo-d5d1ea.netlify.app/"
+    deploy:"https://cheerful-duckanoo-d5d1ea.netlify.app/"
   },
   {
-    title: "Happyfox Clone",
-    subtitle: "React Hooks",
+    title: "Hi-Chat app",
+    subtitle: "Next.js,Firebase,Javascript,Github",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./happyfox.gif",
-    gitlink: "https://github.com/NAYANKUMAR21/closed-mask-38",
-    deploy:"cheerful-duckanoo-d5d1ea.netlify.app/"
+      "Hi-Chat App which allows you an interface where you can chat different users by entering userId or email. And the data will be secure and safe",
+    image: "./whatsapp.gif",
+    gitlink: "https://github.com/Rati3010/hi-chat-app",
+    deploy:"https://hi-chat-app-six.vercel.app/"
   },
 ];
 
