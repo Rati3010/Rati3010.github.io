@@ -1,0 +1,260 @@
+.container {
+  margin-top: 170px;
+  padding: 70px 10%;
+  height: max-content;
+}
+
+.heading {
+  text-decoration:none ;
+  font-size: 36px;
+  text-align: center;
+}
+.heading:hover{
+  text-decoration: underline;
+}
+
+.childs {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  width: fit-content;
+  max-width: 660px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin: auto;
+  margin-bottom: 35px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.childs > div > button {
+  width: 100px;
+  height: 40px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: transparent;
+  color: white;
+  margin: 0px 10px 20px 10px;
+  cursor: pointer;
+}
+
+center > img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.childs > div > button:hover {
+  background-color: #2810a1;
+}
+
+.childs > div:nth-child(1) {
+  align-self: center;
+}
+
+.childs > div > h2 {
+  margin: 5px 0px 10px 0px;
+}
+
+ul > li {
+  font-size: 15px;
+  margin: 7px 0px;
+}
+
+.childs > div > div {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+  .container {
+    padding: 70px 1%;
+  }
+  .childs {
+    display: block;
+    padding: 10px 4%;
+  }
+  center > img {
+    width: 250px;
+    height: 150px;
+  }
+  ul > li {
+    font-size: 12px;
+    margin: 7px 0px;
+  }
+  .childs > div > button {
+    width: 30%;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .childs > div > div {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 320px) {
+  .container {
+    padding: 70px 2%;
+  }
+  .childs {
+    display: block;
+    padding: 10px 6%;
+  }
+  center > img {
+    width: 270px;
+    height: 160px;
+  }
+  ul > li {
+    font-size: 12px;
+    margin: 7px 0px;
+  }
+  .childs > div > button {
+    width: 30%;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .childs > div > div {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .container {
+    padding: 70px 2%;
+  }
+  .childs {
+    display: block;
+    padding: 10px 7%;
+  }
+  center > img {
+    width: 278px;
+    height: 165px;
+  }
+  ul > li {
+    font-size: 12.5px;
+    margin: 7px 0px;
+  }
+  .childs > div > button {
+    width: 30%;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .childs > div > div {
+    font-size: 14.5px;
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .container {
+    padding: 70px 2%;
+  }
+  .childs {
+    display: block;
+    padding: 10px 8%;
+  }
+  center > img {
+    width: 290px;
+    height: 170px;
+  }
+  ul > li {
+    font-size: 13px;
+    margin: 7px 0px;
+  }
+  .childs > div > button {
+    width: 30%;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .childs > div > div {
+    font-size: 14.5px;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 540px) {
+  .container {
+    padding: 70px 2%;
+  }
+  .childs {
+    display: block;
+    padding: 10px 8%;
+  }
+  center > img {
+    width: 310px;
+    height: 190px;
+  }
+  ul > li {
+    font-size: 13px;
+    margin: 7px 0px;
+  }
+  .childs > div > button {
+    width: 30%;
+    height: 32px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .childs > div > div {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 768px) {
+  .container {
+    padding: 70px 2%;
+  }
+  .childs {
+    display: block;
+    padding: 10px 8%;
+  }
+  center > img {
+    width: 345px;
+    height: 220px;
+  }
+  ul > li {
+    font-size: 14px;
+    margin: 7px 0px;
+  }
+  .childs > div > button {
+    width: 30%;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .childs > div > div {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 70px 9%;
+  }
+  .childs {
+    padding: 18px 8%;
+  }
+  center > img {
+    width: 325px;
+    height: 210px;
+  }
+  ul > li {
+    font-size: 16px;
+    margin: 7px 0px;
+  }
+  .childs > div > button {
+    width: 30%;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+  }
+  .childs > div > div {
+    font-size: 16px;
+  }
+}

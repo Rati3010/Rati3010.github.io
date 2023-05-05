@@ -1,0 +1,64 @@
+.container {
+    padding-top: 20px;
+    background-color: #21075c;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  
+  .heading {
+    color: #973ce6;
+    text-align: center;
+  }
+  
+  .heading2 {
+    color: white;
+    margin: 28px;
+    text-align: center;
+  }
+  
+  .allLinksDiv {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 35px;
+    font-size: 13px;
+  }
+  
+  .allLinksDiv > div > a {
+    text-decoration: none;
+  }
+  
+  .platformLinks {
+    padding: 3px 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .platformLinks:hover {
+    color: #0e2431;
+    background-color: #973ce6;
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 280px) {
+    .allLinksDiv {
+      gap: 10%;
+    }
+    .platformLinks {
+      padding: 3px 4px;
+      border-radius: 3px;
+      border: 1px solid white;
+      color: white;
+      font-size: 11px;
+    }
+  
+  }
+  @media only screen and (min-width: 321px) and (max-width: 375px) {
+    .allLinksDiv {
+      gap: 6%;
+    }
+  }
+  
+  

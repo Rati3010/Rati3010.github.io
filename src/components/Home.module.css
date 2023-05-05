@@ -1,0 +1,229 @@
+.container {
+    display: flex;
+    padding: 75px 12%;
+    margin-top:10px
+  }
+  
+  .firstChild > div {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .secondChild {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+  }
+  
+  .secondChild > img {
+    display: block;
+    width : 300px;
+    height:300px;
+    border-radius: 40%;
+  }
+  
+  .resumeBtn {
+    height: 50px;
+    width: 25%;
+    background-color: blueviolet;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+  }
+  .resumeBtn:hover{
+    background-color: #2f0ed5;
+  }
+  .iconDiv {
+    display: flex;
+    gap: 25px;
+  }
+  
+  a > img {
+    height: 25px;
+    width: 25px;
+  }
+  
+  
+  @media only screen and (min-width: 0px) and (max-width: 280px) {
+    .container {
+      display: block;
+    }
+    .firstChild > div {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .secondChild {
+      justify-content: center;
+    }
+    .secondChild > img {
+      height: 150px;
+      width: 150px;
+    }
+    .resumeBtn {
+      height: 20px;
+      width: 25%;
+      background-color: blueviolet;
+      cursor: pointer;
+      font-size: 11px;
+      border-radius: 3px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 281px) and (max-width: 320px) {
+    .container {
+      display: block;
+    }
+    .firstChild > div {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .secondChild {
+      justify-content: center;
+    }
+    .secondChild > img {
+      height: 170px;
+      width: 170px;
+    }
+    .resumeBtn {
+      height: 25px;
+      width: 25%;
+      cursor: pointer;
+      font-size: 12px;
+      border-radius: 3px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 321px) and (max-width: 375px) {
+    .container {
+      display: block;
+    }
+    .firstChild > div {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .secondChild {
+      justify-content: center;
+    }
+    .secondChild > img {
+      height: 180px;
+      width: 180px;
+    }
+    .resumeBtn {
+      height: 25px;
+      width: 25%;
+      background-color: blueviolet;
+      cursor: pointer;
+      font-size: 12px;
+      border-radius: 3px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 376px) and (max-width: 425px) {
+    .container {
+      display: block;
+    }
+    .firstChild > div {
+      font-size: 35px;
+      font-weight: bold;
+      margin-bottom: 13px;
+    }
+    .secondChild {
+      justify-content: center;
+    }
+    .secondChild > img {
+      height: 200px;
+      width: 200px;
+    }
+    .resumeBtn {
+      height: 30px;
+      width: 25%;
+      cursor: pointer;
+      font-size: 13px;
+      border-radius: 4px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 426px) and (max-width: 540px) {
+    .container {
+      display: block;
+    }
+    .firstChild > div {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .secondChild {
+      justify-content: center;
+    }
+    .secondChild > img {
+      height: 240px;
+      width: 240px;
+    }
+    .resumeBtn {
+      height: 35px;
+      width: 25%;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 4px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 541px) and (max-width: 768px) {
+    .container {
+      display: block;
+    }
+    .firstChild > div {
+      font-size: 45px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .secondChild {
+      justify-content: center;
+    }
+    .secondChild > img {
+      height: 290px;
+      width: 290px;
+    }
+    .resumeBtn {
+      height: 40px;
+      width: 25%;
+      cursor: pointer;
+      font-size: 15px;
+      border-radius: 5px;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .firstChild > div {
+      font-size: 46px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    .secondChild {
+      justify-content: center;
+    }
+    .secondChild > img {
+      height: 310px;
+      width: 310px;
+    }
+    .resumeBtn {
+      height: 45px;
+      width: 25%;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+  }
+  

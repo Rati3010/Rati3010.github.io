@@ -1,0 +1,128 @@
+.container {
+    padding: 70px 0px;
+    margin-bottom: 70px;
+  }
+  
+  .heading {
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .heading:hover{
+    text-decoration: underline;
+  }
+  
+  .toolContainer {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 25%;
+  }
+  
+  .toolContainer > div {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .toolContainer > div > a > img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .toolContainer > div:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 280px) {
+    .toolContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10%;
+    }
+    .toolContainer > div > a > img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  
+  @media only screen and (min-width: 281px) and (max-width: 320px) {
+    .toolContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12%;
+    }
+    .toolContainer > div > a > img {
+      height: 90px;
+      width: 90px;
+    }
+    .container {
+      margin-bottom: 190px;
+    }
+  }
+  
+  @media only screen and (min-width: 321px) and (max-width: 375px) {
+    .toolContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 13%;
+    }
+    .toolContainer > div > a > img {
+      height: 93px;
+      width: 93px;
+    }
+    .container {
+      margin-bottom: 190px;
+    }
+  }
+  
+  @media only screen and (min-width: 376px) and (max-width: 425px) {
+    .toolContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14%;
+    }
+    .toolContainer > div > a > img {
+      height: 70px;
+      width: 70px;
+    }
+  }
+  
+  @media only screen and (min-width: 426px) and (max-width: 540px) {
+    .toolContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15%;
+    }
+    .toolContainer > div > a > img {
+      height: 80px;
+      width: 80px;
+    }
+  }
+  
+  @media only screen and (min-width: 541px) and (max-width: 768px) {
+    .toolContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 19%;
+    }
+    .toolContainer > div > a > img {
+      height: 90px;
+      width: 90px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .toolContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22%;
+    }
+    .toolContainer > div > a > img {
+      height: 98px;
+      width: 98px;
+    }
+  }
+  
