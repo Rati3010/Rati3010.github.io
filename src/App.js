@@ -40,7 +40,7 @@ function App() {
           >
             <img
               title="🔥 Get streak stats for your profile at git.io/streak-stats"
-              alt="Ashutosh-041298-DEV streak"
+              alt="Rati3010 streak"
               src="https://github-readme-streak-stats.herokuapp.com/?user=Rati3010&hide_border=true&theme=synthwave"
             />
           </a>
@@ -51,10 +51,10 @@ function App() {
         <p align="center">
           <a
             className="stat"
-            href="https://github.com/Ashutosh-041298-DEV/github-readme-stats"
+            href="https://github.com/Rati3010/github-readme-stats"
           >
             <img
-              alt="Ashutosh-041298-DEV Github Stats"
+              alt="Rati3010 Github Stats"
               src="https://github-readme-stats.vercel.app/api?username=Rati3010&show_icons=true&locale=en&theme=synthwave"
             />
           </a>

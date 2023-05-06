@@ -2,9 +2,10 @@ import overstock from "../images/overstock.png"
 import styles from "./projects.module.css";
 import hichat from "../images/hichat.png";
 import shower from "../images/shower.png";
-import desk from "../images/desktime.png"
-import drum from "../images/Drumkit.png"
-import envoy from "../images/envoy.png"
+import friend from "../images/FriendCircle.png"
+import happyFox from "../images/happyFox.png";
+import mailTrap from "../images/mailtrap.png";
+
 export const Projects = () => {
     
   return (
@@ -53,8 +54,6 @@ export const Projects = () => {
         </div>
       </div>
 
-      
-
       <div className={styles.childs}>
         <div>
           <center>
@@ -94,31 +93,31 @@ export const Projects = () => {
           </button>
         </div>
       </div>
+
       <div className={styles.childs}>
         <div>
           <center>
             <img
               style={{ borderRadius: "5px" }}
-              src={shower}
+              src={friend}
               alt=""
             />
           </center>
         </div>
         <div className={styles.afterImg}>
-          <h2>Sparkling Showers</h2>
+          <h2>Friend Circle</h2>
           <ul>
            <li>Login and Signup functionality with custom backend made using express</li>
            <li>Homepage navbar and footer with Chakra ui and completely responsive</li>
-           <li>Admin side add and delete products</li>
            <li>Backend using Mongo DB deployed on cyclic</li>
-           <li>product pages with single pages and review section</li>
+           <li>Add Friends , like photos and comment in photos</li>
           </ul>
           <div  ><b>Tech stack- React | Express JS | Mongo DB | chakra-ui | Node JS | CSS</b></div>
           <br />
           <button
             onClick={() => {
               window.open(
-                "https://mybathnbody.vercel.app/",
+                "https://client-xi-cyan.vercel.app/",
                 "_blank"
               );
             }}
@@ -127,86 +126,7 @@ export const Projects = () => {
           </button>
           <button
             onClick={() => {
-              window.open("https://github.com/Ashutosh-041298-DEV/Sparkling-Showers", "_blank");
-            }}
-          >
-            GitHub
-          </button>
-        </div>
-      </div>
-      <div className={styles.childs}>
-        <div>
-          <center>
-            <img
-              style={{ borderRadius: "5px" }}
-              src={desk}
-              alt=""
-            />
-          </center>
-        </div>
-        <div className={styles.afterImg}>
-          <h2>Desktime Website</h2>
-          <ul>
-           <li>Login and Signup functionality</li>
-           <li>Navbar and Footer </li>
-           <li>Calender using Chakra ui</li>
-           <li>Navbar change on the basis of user authentication</li>
-          </ul>
-          <div  ><b>Tech stack- React JS | Firebase | Chakra-ui</b></div>
-          <br />
-          <button
-            onClick={() => {
-              window.open(
-                "https://cultured-bed-2030.netlify.app/",
-                "_blank"
-              );
-            }}
-          >
-            Website
-          </button>
-          <button
-            onClick={() => {
-              window.open("https://github.com/Ashutosh-041298-DEV/cultured-bed-2030", "_blank");
-            }}
-          >
-            GitHub
-          </button>
-        </div>
-      </div>
-      <div className={styles.childs}>
-        <div>
-          <center>
-            <img
-              style={{ borderRadius: "5px" }}
-              src={envoy}
-              alt=""
-            />
-          </center>
-        </div>
-        <div className={styles.afterImg}>
-          <h2>Envoy.com Website</h2>
-          <ul>
-            <li>created using React JS </li>
-            <li>Home page Navbar and Footer with authentication</li>
-            <li>Products page with sorting and filter</li>
-            <li>Login and signup</li>
-            
-          </ul>
-          <div  ><b>Tech stack- React Js| Json-Server |chakra-ui</b></div>
-          <br />
-          <button
-            onClick={() => {
-              window.open(
-                "https://mute-line-8050.netlify.app/",
-                "_blank"
-              );
-            }}
-          >
-            Website
-          </button>
-          <button
-            onClick={() => {
-              window.open("https://github.com/Ashutosh-041298-DEV/mute-line-8050", "_blank");
+              window.open("https://github.com/Rati3010/social_media", "_blank");
             }}
           >
             GitHub
@@ -219,31 +139,73 @@ export const Projects = () => {
           <center>
             <img
               style={{ borderRadius: "5px" }}
-              src={drum}
+              src={happyFox}
               alt=""
             />
           </center>
         </div>
         <div className={styles.afterImg}>
-          <h2>Drumkit website</h2>
+          <h2>HappyFox website</h2>
           <ul>
-            <li>play sounds using both keyboard </li>
-            <li>Touch buttons are available for playing sound</li>
-            <li>Create your own music</li>
-            
+           <li>Login and Signup functionality</li>
+           <li>Navbar and Footer </li>
+           <li>Calender using matrix</li>
+           <li>Navbar change on the basis of user authentication</li>
+           <li>Created the chatbot</li>
           </ul>
-          <div  ><b>Teck Stack:-ES6 | HTML | CSS | Vanilla Js</b></div>
+          <div  ><b>Tech stack- Javascript | HTML | CSS </b></div>
           <br />
           <button
             onClick={() => {
-              window.open("https://naughty-sinoussi-58c007.netlify.app/", "_blank");
+              window.open(
+                "https://cheerful-duckanoo-d5d1ea.netlify.app/",
+                "_blank"
+              );
             }}
           >
             Website
           </button>
           <button
             onClick={() => {
-              window.open("https://github.com/Ashutosh-041298-DEV/Drumkit", "_blank");
+              window.open("https://github.com/NAYANKUMAR21/closed-mask-38", "_blank");
+            }}
+          >
+            GitHub
+          </button>
+        </div>
+      </div>
+      <div className={styles.childs}>
+        <div>
+          <center>
+            <img
+              style={{ borderRadius: "5px" }}
+              src={mailTrap}
+              alt=""
+            />
+          </center>
+        </div>
+        <div className={styles.afterImg}>
+          <h2>Mailtrap Website</h2>
+          <ul>
+            <li>Created using HTML and CSS and dployed on netlify</li>
+            <li>Home page Navbar and Footer </li>
+            <li>Login and signup</li>       
+          </ul>
+          <div  ><b>Tech stack- HTML | CSS  </b></div>
+          <br />
+          <button
+            onClick={() => {
+              window.open(
+                "https://serene-cascaron-b64b39.netlify.app/",
+                "_blank"
+              );
+            }}
+          >
+            Website
+          </button>
+          <button
+            onClick={() => {
+              window.open("https://github.com/Rati3010/Mailtrap", "_blank");
             }}
           >
             GitHub
